@@ -1,0 +1,12 @@
+[project]
+name = "isp-nms"
+version = "0.1.0"
+description = "Open NMS for ISP support/NOC teams. Module 1: ordered remote fault diagnostics."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.scripts]
+nms = "nms.cli:main"
